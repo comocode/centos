@@ -5,9 +5,9 @@ Vagrant e Docker usando Centos para radio desenvolvemento de Lamp / Node
 
 Modo de usar
 
-Installar [http://www.virtualbox.org](VirtualBox)
+Installar [Virtualbox](http://www.virtualbox.org)
 
-Installar [http://www.vagrant.com](Vagrant)
+Installar [Vagrant](http://www.vagrant.com)
 
 Abaixar esse repo e correr vagrant up
 
