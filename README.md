@@ -7,7 +7,7 @@ Modo de usar
 
 Installar [Virtualbox](http://www.virtualbox.org)
 
-Installar [Vagrant](http://www.vagrant.com)
+Installar [Vagrant](http://www.vagrantup.com)
 
 Abaixar esse repo e correr vagrant up
 
