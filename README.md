@@ -21,7 +21,7 @@ vagrant up
 vagrant ssh 
 ```
 
-### Usando Lamp
+### Usando Lamp com Docker
 
 Para abaixar PHP 5.5, MariaDB e Apache 
 ```sh
@@ -32,4 +32,27 @@ docker pull comocode/lamp
 docker -i -t comocode/lamp /bin/bash 
 
 ```
+
+### Usando Lamp Directo
+Troque a linha do seu Vagrantfile que dis: 
+
+config.vm.box = "comocode/centos-64" 
+
+para
+
+config.vm.box = "comocode/centos-64-lamp"
+
+E execute
+
+```
+vagrant up 
+```
+
+
+### Editando 
+Configure a linha do Vagrantfile 
+
+config.vm.synced_folder "./data", "/var/www/html/"
+
+para representar a base de montagem dos seus documentos com do VM
 
