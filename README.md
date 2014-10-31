@@ -56,6 +56,6 @@ config.vm.synced_folder "./data", "/var/www/html/"
 
 para representar a base de montagem dos seus documentos com do VM
 
-### Git 1.9.3 
+### Git 1.9.4
 
 Includido no pacote esta opção para utilizar o upgrade para git para incluir na instalação tire o "#" da linha para executar o archivo em provisions/shell/bootstraph.sh 
