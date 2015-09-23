@@ -29,9 +29,17 @@ vagrant ssh
 
 docker pull comocode/lamp 
 
-docker -i -t comocode/lamp /bin/bash 
+docker run -i -t comocode/lamp /bin/bash 
 
 ```
+
+### Imagems de docker para frameworks 
+
+docker pull comocode/laravel:latest
+docker pull comocode/rails:latest
+docker pull comocode/django:latest
+docker pull comocode/express:latest
+
 
 ### Usando Lamp Directo
 Troque a linha do seu Vagrantfile que dis: 
